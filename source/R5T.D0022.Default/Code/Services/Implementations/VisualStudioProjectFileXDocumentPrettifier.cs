@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,15 +8,15 @@ using R5T.T0004;
 using R5T.T0006;
 
 using R5T.Magyar;
-using R5T.Magyar.Xml;
+using R5T.Magyar.Xml;using R5T.T0064;
 
 
 namespace R5T.D0022.Default
-{
+{[ServiceImplementationMarker]
     /// <summary>
     /// Required to get proper Visual Studio project file formatting.
     /// </summary>
-    public class VisualStudioProjectFileXDocumentPrettifier : IVisualStudioProjectFileXDocumentPrettifier
+    public class VisualStudioProjectFileXDocumentPrettifier : IVisualStudioProjectFileXDocumentPrettifier,IServiceImplementation
     {
         /// <summary>
         /// Two spaces.
