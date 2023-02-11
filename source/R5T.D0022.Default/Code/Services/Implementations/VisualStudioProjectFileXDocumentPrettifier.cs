@@ -12,10 +12,11 @@ using R5T.Magyar.Xml;using R5T.T0064;
 
 
 namespace R5T.D0022.Default
-{[ServiceImplementationMarker]
+{
     /// <summary>
     /// Required to get proper Visual Studio project file formatting.
     /// </summary>
+    [ServiceImplementationMarker]
     public class VisualStudioProjectFileXDocumentPrettifier : IVisualStudioProjectFileXDocumentPrettifier,IServiceImplementation
     {
         /// <summary>
